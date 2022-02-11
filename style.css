@@ -154,7 +154,7 @@ nav .fa{
     margin-top: 39px;
 }
 .hero-section .row img{
-    width: 90%;
+    width: 80%;
     border-radius: 10%;
 }
 .hero-section .row a button:hover{
@@ -278,15 +278,31 @@ canvas.particles-js-canvas-el{
         height: 43px;
         font-size: 15px;
         text-align: center;
-        margin-top: 19px;
+        margin-top: 4px;
     }
     .hero-section .row img{
-        width: 60%;
+        width: 50%;
         margin-top: 52px;
         display: block;
     }
         .row{
         flex-direction: column;
+    }
+}
+@media(max-width:638px) and (min-width:550px)
+{
+    .hero-section .row img{
+        width: 40%;
+        margin-top: 52px;
+        display: block;
+    }
+}
+@media(max-width:523px)
+{
+    .hero-section .row img{
+        width: 45%;
+        margin-top: 40px;
+        display: block;
     }
 }
 /* About Me Section */
@@ -396,6 +412,15 @@ canvas.particles-js-canvas-el{
         align-items: center;
         margin-left: 31px;
     }
+}
+/* Experience Section */
+.exp-section h1{
+    color: #fff;
+}
+.exp-section hr{
+    border: 0.5px solid var(--pink-color);
+    width: 6rem;
+    margin: 12px 0;
 }
 /* Skills Section */
 .skills-section{
